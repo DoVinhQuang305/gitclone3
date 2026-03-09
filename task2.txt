@@ -1,0 +1,12 @@
+# 1. Tạo nhanh một file tên là task2.txt và ghi nội dung vào đó
+echo "Day la noi dung code cua Task 2" > task2.txt
+
+# 2. Kiểm tra trạng thái để thấy Git đã nhận diện file mới (task2.txt sẽ hiện ra)
+git status
+
+# 3. Đưa file vừa tạo vào vùng chờ (Staging area)
+git add task2.txt
+# (Mẹo: Bạn cũng có thể dùng lệnh `git add .` để thêm tất cả các file cùng lúc)
+
+# 4. Lưu lại lịch sử công việc (Commit)
+git commit -m "Thêm file task2.txt để giải quyết Task 2"
